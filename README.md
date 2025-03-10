@@ -1,7 +1,7 @@
 Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 ===
 
-*DUE: *  
+*DUE: testing*  
 
 First assignment! You will deploy the starting Web site that you will use this term to [Glitch](http://www.glitch.com/). 
 
