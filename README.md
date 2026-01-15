@@ -1,7 +1,7 @@
-Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
+Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Render
 ===
 
-*DUE: testing*  
+*DUE: F 1-23-2026 at 11:59pm*  
 
 First assignment! You will deploy the starting Web site that you will use this term to [Render](http://www.render.com/). 
 
@@ -16,11 +16,11 @@ Assignment details
 
 This assignment requires that your website is both contained in a GitHub repository and hosted in Render. There are two ways to do this:
 
-1. Fork this repo and clone it to your computer, make changes locally on your computer, push the repo onto GitHub, and then import your GitHub repo into Glitch.
-2. Fork this repo and then import it directly to Glitch, use the Glitch editor to make changes, and then export your repo from Glitch back to GitHub.
-3. Same as #1, but instead of importing from Github to Glitch you just upload the files (or copy/paste) them directly to Glitch.
+1. Fork this repo and clone it to your computer, make changes locally on your computer, push the repo onto GitHub, and then import your GitHub repo into Render.
+2. Fork this repo and then import it directly to Glitch, use the Glitch editor to make changes, and then export your repo from Glitch back to Render.
+3. Same as #1, but instead of importing from Github to Render you just upload the files (or copy/paste) them directly to Render.
 
-## Option 1 - Clone to computer, push to Github, import to Glitch (recommended)
+## Option 1 - Clone to computer, push to Github, import to Render (recommended)
 
 1. Fork the starting project code in GitHub. This repo contains:
     * the server code, `server.js`
@@ -28,7 +28,7 @@ This assignment requires that your website is both contained in a GitHub reposit
     * A package.json file that helps configure Glitch
     * This README
 2. Edit `index.html` to show the following information about you:
-    * your name and class at WPI (e.g. class of 2025) Note: Do not put any contact or personal information that you do not potentially want other people outside of this class to see.
+    * your name and class at WPI (e.g. class of 2026) Note: Do not put any contact or personal information that you do not potentially want other people outside of this class to see.
     * your major(s) and minor(s)
     * a list of previous computer science courses that you have taken at WPI
     * a table containing your experience with the following technologies and methods (none, some, a lot)
@@ -54,19 +54,17 @@ This assignment requires that your website is both contained in a GitHub reposit
     * Link to `hobby.html`
     * Link to WPI's home page
     * Link to an informative web page related to your hobby
-6. Complete some technical and/or design achievements (see below).
+5. Modify node.js to access both index.html and hobby.html
+6. Complete some technical and/or design achievements (see below)
 7. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory.
 8. Modify the README file according to the specification below.
 9. Commit and push all your changes to GitHub. 
-10. Deploy your project to Glitch. You can do this by [importing the repo from GitHub](https://medium.com/glitch/import-code-from-anywhere-83fb60ea4875)
+10. Deploy your project to Render. 
 11. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
-9. Create and submit a Pull Request to the original repo.
+12. Create and submit a Pull Request to the original repo.
 
-## Option 2 - Fork repo and import to Glitch, edit on Glitch, and then export back to GitHub
-Most of these steps are the same as option 1, except that you being by creating a new project Glitch using this repo as a staring point (just choose New Project > Import from GitHub for this and then paste in the link to your repo). At the end, you can export your Glitch project to GitHub by [following these instructions](https://www.youtube.com/watch?time_continue=77&v=aWJFbtrgW4E&feature=emb_logo). *Note that the location of the projecct export feature in Glitch has moved from what they show in this video.* It's now located in Tools > Import and Export (tools is located in the bottom left of the Glitch editor).
-
-## Option 3 - Clone to computer, edit locally, push to GitHub, upload to Glitch
-This is the same as option 1, except that for step 6 (Deploy to Glitch) you simply upload each file to your Glitch repository (using New File > Upload a File).
+## Option 2 - Clone to computer, edit locally, push to GitHub, upload to Render
+This is the same as option 1, except that for step 10 (Deploy to Render) you simply upload each file to your Render repository
 
 Naming and URL Scheme
 ---
@@ -77,8 +75,6 @@ The `a1` will need to be updated to `a2`, `a3`, and so on in future projects.
 
 If we can't find it, we can't grade it.
 
-By default Glitch often assigns your application a random name. To change it, click on the project dropdown menu in the upper left corner of Glitch. You will then see an additional text field displaying the project name in the resulting menu; click here to edit the name.
-
 Achievements
 ---
 Below are some suggested technical and design achievements. You can use these to help boost your grade up to an A and customize the assignment to your personal interests. These are recommended acheivements, but feel free to create/implement your own... just make sure you thoroughly describe what you did in your README and why it was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM.
@@ -86,7 +82,7 @@ Below are some suggested technical and design achievements. You can use these to
 Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize this shortly.
 
 *Technical*
-1. (max 5 points) Style your page using an external stylesheet named styles.CSS. Each style rule you apply other than the a: pseudo class styles will get you 1 extra point for a maximum of 5 points. Be sure to describe your style rules in your README.
+1. (max 5 points) Style your page using an external stylesheet named styles.css. Each style rule you apply other than the a: pseudo class styles will get you 1 extra point for a maximum of 5 points. Be sure to describe your style rules in your README.
 2. (5 points) Add a simple JavaScript animation to the page.
 3. (max 5 points) Experiment with additional *semantic* HTML tags (links, images, tables, header, footer, etc.) Each extra semantic tag beyond the two required ones will get you 1 extra point for a maximum of 5 points. Be sure to list the semantic tags you use in your README.
 
