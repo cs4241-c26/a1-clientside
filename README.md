@@ -14,11 +14,12 @@ PAY ATTENTION TO THE NAMING AND URL SCHEME REQUIREMENTS. This is where students 
 Assignment details
 ---
 
-This assignment requires that your website is both contained in a GitHub repository and hosted in Render. There are two ways to do this:
+This assignment requires that your website is both contained in a GitHub repository and hosted in Render. Do the following:
 
-1. Fork this repo and clone it to your computer, make changes locally on your computer, push the repo onto GitHub, and then import your GitHub repo into Render.
-2. Fork this repo and then import it directly to Glitch, use the Glitch editor to make changes, and then export your repo from Glitch back to Render.
-3. Same as #1, but instead of importing from Github to Render you just upload the files (or copy/paste) them directly to Render.
+1. Fork this repo and clone it to your computer
+2. Make changes locally on your computer
+3. Push the repo onto GitHub
+4. Create a Web Service using Render.
 
 ## Option 1 - Clone to computer, push to Github, import to Render (recommended)
 
@@ -59,12 +60,9 @@ This assignment requires that your website is both contained in a GitHub reposit
 7. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory.
 8. Modify the README file according to the specification below.
 9. Commit and push all your changes to GitHub. 
-10. Deploy your project to Render. 
+10. Create a Web Service on Render to deploy your project. 
 11. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
 12. Create and submit a Pull Request to the original repo.
-
-## Option 2 - Clone to computer, edit locally, push to GitHub, upload to Render
-This is the same as option 1, except that for step 10 (Deploy to Render) you simply upload each file to your Render repository
 
 Naming and URL Scheme
 ---
@@ -100,7 +98,7 @@ If you need a Git/GitHub refresher, see the GitHub document posted on Canvas and
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
-Your First and Last Name: GlitchLink
+Your First and Last Name: Render link
 
 This project shows ...
 
