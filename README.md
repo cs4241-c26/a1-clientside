@@ -3,9 +3,9 @@ Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Glitch
 
 *DUE: testing*  
 
-First assignment! You will deploy the starting Web site that you will use this term to [Glitch](http://www.glitch.com/). 
+First assignment! You will deploy the starting Web site that you will use this term to [Render](http://www.render.com/). 
 
-Treat this assignment as a chance to get up to speed on Git, GitHub, and Glitch, as well as experiment some with HTML/CSS/JS. If you already know these, great! 
+Treat this assignment as a chance to get up to speed on Git, GitHub, and Render, as well as experiment some with HTML/CSS/JavaScript. If you already know these, great! 
 However, if you're new to them, spend several hours practicing, experimenting, and reading documentation. Don't just get your website up and done, as
 you'll need skills with these tools throughout the rest of the course.
 
@@ -14,7 +14,7 @@ PAY ATTENTION TO THE NAMING AND URL SCHEME REQUIREMENTS. This is where students 
 Assignment details
 ---
 
-This assignment requires that your website is both contained in a GitHub repository and hosted in Glitch. There are two ways to do this:
+This assignment requires that your website is both contained in a GitHub repository and hosted in Render. There are two ways to do this:
 
 1. Fork this repo and clone it to your computer, make changes locally on your computer, push the repo onto GitHub, and then import your GitHub repo into Glitch.
 2. Fork this repo and then import it directly to Glitch, use the Glitch editor to make changes, and then export your repo from Glitch back to GitHub.
