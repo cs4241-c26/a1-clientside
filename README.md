@@ -55,20 +55,19 @@ This assignment requires that your website is both contained in a GitHub reposit
     * Link to `hobby.html`
     * Link to WPI's home page
     * Link to an informative web page related to your hobby
-5. Modify node.js to access both index.html and hobby.html
+5. Modify add hobby.html to server.js
 6. Complete some technical and/or design achievements (see below)
 7. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by simply running `node server.js` from within the assignment directory.
 8. Modify the README file according to the specification below.
 9. Commit and push all your changes to GitHub. 
-10. Create a Web Service on Render to deploy your project. 
-11. Ensure that your project has the proper naming scheme (guide follows) so we can find it.
-12. Create and submit a Pull Request to the original repo.
+10. Ensure that your project has the proper naming scheme (guide follows below this section) so we can find it.
+11. Create a Web Service on Render to deploy your project (see deployment instructions included with Canvas Assignment 1)
 
 Naming and URL Scheme
 ---
 
 You must use a consistent naming scheme for all projects in this course.
-The name scheme should be `a1-yourGitHubUsername`.
+The name scheme should be `a1-LastnameFirstname`.
 The `a1` will need to be updated to `a2`, `a3`, and so on in future projects.
 
 If we can't find it, we can't grade it.
