@@ -61,13 +61,19 @@ Detailed Requirements
     * Link to `hobby.html`
     * Link to WPI's home page
     * Link to an informative web page related to your hobby
-6. Complete some technical and/or design achievements (see below)
-7. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by
+6. Add the following styles to styles.cc
+    * h1
+    * h2
+    * ordered lists
+    * unordered lists
+    * navigation menu selections. You will want to research the a: pseudo classes, such as a:hover, to create these styles
+7. Complete some technical and/or design achievements (see below)
+8. Test your project to make sure that when someone goes to your main page, it displays correctly. You can do this locally by
    simply running `node server.js` from within the assignment directory.
-8. Modify the README file according to the specification below.
-9. Commit and push all your changes to GitHub. 
-10. Ensure that your project has the proper naming scheme (guide follows below this section) so we can find it.
-11. Create a Web Service on Render to deploy your project - see deployment instructions included with Canvas Assignment 1 
+9. Modify the README file according to the specification below.
+10. Commit and push all your changes to GitHub. 
+11. Ensure that your project has the proper naming scheme (guide follows below this section) so we can find it.
+12. Create a Web Service on Render to deploy your project - see deployment instructions included with Canvas Assignment 1 
     and in the [Render Docs](https://render.com/docs/github)
 
 Naming and URL Scheme
