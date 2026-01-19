@@ -81,26 +81,24 @@ If we can't find it, we can't grade it.
 
 Achievements
 ---
-Below are some suggested technical and design achievements. You can use these to help boost your grade up to an A and 
-customize the assignment to your personal interests. These are recommended acheivements, but feel free to create/implement your 
-own... just make sure you thoroughly describe what you did in your README and why it was challenging. 
-ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM.
+Below are some suggested technical and design achievements. You must implement at least one from each category to boost 
+your grade up to an A (95/100) and customize the assignment to your personal interests. These are recommended achievements,
+but feel free to create/implement your own. Uust make sure you thoroughly describe what you did in your README and why it 
+was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM.
 
 Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify 
 server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize 
 this shortly.
 
 *Technical*
-1. (max 5 points) Style your page using the external stylesheet named styles.css. Each style rule you apply other than the
-   ones above for the nav bar will get you 1 extra point for a maximum of 5 points. Be sure to describe your style rules
-   in your README.
-2. (5 points) Add a simple JavaScript animation to the page.
+1. (5 points) Add a gridpane for your form. You will need to research how this is done so the labels and the input elements line up nicely.
+2. (5 points) Add a flexbox for your nav bar
 3. (max 5 points) Experiment with additional *semantic* HTML tags (links, images, tables, header, footer, etc.) Each extra
    semantic tag beyond the two required ones will get you 1 extra point for a maximum of 5 points. Be sure to list the
    semantic tags you use in your README.
 
 *Design*
-1. (10 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette
+1. (5 points) Create a color palette using [color.adobe.com](https://color.adobe.com). Use all the colors in the palette
    in your webpage by implementing the appropriate CSS. Add a small screenshot of the color wheel for your color palette
    to your repo.
 2. (5 points) Use a font from [Google Fonts](https://fonts.google.com) in your website.
