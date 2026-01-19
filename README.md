@@ -1,4 +1,4 @@
-Assignment 1 - Hello World: Basic Deployment w/ Git, GitHub, Render
+Assignment 1 - Client-side Development: Basic Deployment w/ Git, GitHub, Render
 ===
 
 *DUE: F 1-23-2026 at 11:59pm*  
