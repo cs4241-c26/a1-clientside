@@ -67,8 +67,8 @@ Detailed Requirements
 8. Modify the README file according to the specification below.
 9. Commit and push all your changes to GitHub. 
 10. Ensure that your project has the proper naming scheme (guide follows below this section) so we can find it.
-11. Create a Web Service on Render to deploy your project (see deployment instructions included with Canvas Assignment 1 
-    and on the Render website: )
+11. Create a Web Service on Render to deploy your project - see deployment instructions included with Canvas Assignment 1 
+    and in the [Render Docs](https://render.com/docs/github)
 
 Naming and URL Scheme
 ---
