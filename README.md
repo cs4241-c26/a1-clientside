@@ -55,13 +55,12 @@ Detailed Requirements
         * a submit button with no action (the button does not do anything for now)
 4. Add hobby.html to server.js
 5. Using the <nav> tag and unordered lists as mentioned in class, create the following horizontal navigation menu at the top of
-   the `index.html` and `hobby.html` documents. You will want to research the a: pseudo classes, such as a:hover, to create
-   styles in styles.css for the four menu selections:
+   the `index.html` and `hobby.html` documents.
     * Link to `index.html`
     * Link to `hobby.html`
     * Link to WPI's home page
     * Link to an informative web page related to your hobby
-6. Add the following styles to styles.cc
+6. Add the following styles to styles.css
     * h1
     * h2
     * ordered lists
@@ -80,9 +79,7 @@ Naming and URL Scheme
 ---
 You must use a consistent naming scheme for all projects in this course.
 The naming scheme should be `a1-LastnameFirstname`.
-The `a1` will need to be updated to `a2`, `a3`, and so on in future projects.
-
-If we can't find it, we can't grade it.
+The `a1` will need to be updated to `a2`, `a3`, and so on in future projects. If we can't find it, we can't grade it.
 
 Achievements
 ---
