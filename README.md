@@ -14,7 +14,7 @@ PAY ATTENTION TO THE NAMING AND URL SCHEME REQUIREMENTS. This is where students 
 Assignment details
 ---
 
-This assignment requires that your website is both contained in a GitHub repository and hosted in Render. The high-level summary is
+This assignment requires that your website is both contained in a GitHub repository and hosted in Render.
 
 1. Fork this repo and clone it to your computer
 2. Make changes locally on your computer
@@ -29,7 +29,7 @@ Detailed Requirements
     * A blank `styles.css` file where you will include your CSS styles
     * A package.json file 
     * This README
-2. Edit `index.html` to show the following information about you:
+2. Using the JetBrains Webstorm IDE, edit `index.html` to show the following information about you:
     * your name and class at WPI (e.g. class of 2026) Note: Do not put any contact or personal information that you do not
       potentially want other people outside of this class to see.
     * your major(s) and minor(s)
@@ -78,9 +78,8 @@ Detailed Requirements
 
 Naming and URL Scheme
 ---
-
 You must use a consistent naming scheme for all projects in this course.
-The name scheme should be `a1-LastnameFirstname`.
+The naming scheme should be `a1-LastnameFirstname`.
 The `a1` will need to be updated to `a2`, `a3`, and so on in future projects.
 
 If we can't find it, we can't grade it.
@@ -88,11 +87,11 @@ If we can't find it, we can't grade it.
 Achievements
 ---
 Below are some suggested technical and design achievements. You must implement at least one from each category to boost 
-your grade up to an A (95/100) and customize the assignment to your personal interests. These are recommended achievements,
+your grade up to an A and customize the assignment to your personal interests. These are recommended achievements,
 but feel free to create/implement your own. Uust make sure you thoroughly describe what you did in your README and why it 
 was challenging. ALL ACHIEVEMENTS MUST BE DESCRIBED IN YOUR README IN ORDER TO GET CREDIT FOR THEM.
 
-Note that if you want to load resources besides your index.html file (images, an CSS file, a JS file) you'll need to modify 
+Note that if you want to load resources besides your index.html file (images or a JS file) you'll need to modify 
 server.js to point to these. For now it's easiest to just hardcode paths to the resources, but we'll look at ways to optimize 
 this shortly.
 
