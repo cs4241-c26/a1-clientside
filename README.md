@@ -1,7 +1,7 @@
 Assignment 1 - Client-side Development: Basic Deployment w/ Git, GitHub, Render
 ===
 
-*DUE: F 1-23-2026 at 11:59pm*  
+*DUE: Sa 1-24-2026 at 11:59pm*  
 
 First assignment! You will deploy the starting Web site that you will use this term to [Render](http://www.render.com/). 
 
