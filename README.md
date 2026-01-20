@@ -60,7 +60,7 @@ Detailed Requirements
     * Link to `hobby.html`
     * Link to WPI's home page
     * Link to an informative web page related to your hobby
-6. Add the following styles to styles.css
+6. Add the following styles to `styles.css`
     * h1
     * h2
     * ordered lists
