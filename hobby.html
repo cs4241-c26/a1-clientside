@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Hobby</title>
+</head>
+<body class="hobby">
+<header>
+    <h1>My Hobby: Cooking</h1>
+</header>
+<nav>
+    <ul>
+        <li class="button"><a href="index.html">index.html</a></li>
+        <li class="button"><a href="hobby.html">hobby.html</a></li>
+        <li class="button"><a href="https://www.wpi.edu/">WPI Home</a></li>
+        <li class="button"><a href="https://cooking.nytimes.com/">Cooking Site</a></li>
+    </ul>
+</nav>
+<main>
+    <section class="form1">
+        <header>
+            Form #1
+        </header>
+        <form>
+            <label for="food">What is your favorite food?</label><br>
+            <input type="text" id="food" name="food"><br><br>
+        </form>
+        <form>
+            <label for="check">Confirm?</label><br>
+            <input type="checkbox" id="check" name="check"><br><br>
+        </form>
+    </section>
+    <section class="form1">
+        <header>
+            Form #2
+        </header>
+        <label for="styles">Choose a style:</label>
+        <select name="styles" id="styles">
+            <option value="chinese">Chinese</option>
+            <option value="thai">American</option>
+            <option value="mexican">Mexican</option>
+            <option value="italian">Italian</option>
+        </select>
+        <form class="radio">
+            <div>
+                <input type="radio" id="home-cooked Meal" name="fav_foods" value="Home-cooked Meal">
+                <label for="Home-cooked Meal">Home-cooked Meal</label><br>
+            </div>
+
+            <div>
+                <input type="radio" id="takeout" name="fav_foods" value="Takeout">
+                <label for="takeout">Takeout</label><br>
+            </div>
+            <div>
+                <input type="radio" id="restaurant" name="fav_foods" value="Restaurant">
+                <label for="restaurant">Restaurant</label>
+            </div>
+        </form>
+    </section>
+    <form>
+        <section class="form1">
+            <header>
+                Form #3
+            </header>
+            <label for="recipe">
+                Share your favorite recipe! Include ingredients and cook time(s), if any.
+            </label><br>
+            <textarea id="recipe" name="recipe" rows="15"></textarea>
+            <input type="submit">
+        </section>
+    </form>
+</main>
+</body>
+<footer>
+    <p>© 2026 Matt Walsh | My Website</p>
+</footer>
+</html>
