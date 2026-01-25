@@ -2,7 +2,7 @@
 
 Kharfen, Ben: https://ben-kharfen-cs4241-assignment-1.onrender.com/
 
-This project shows my front-end web development skills. 
+This project shows my front-end web development skills.
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the body, nav, form, article, p, h1, h2, h3, th, td, ul, table, and li selectors
