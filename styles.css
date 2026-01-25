@@ -5,10 +5,52 @@ body {
     background-color: rgb(247, 215, 175);
 }
 
+#navbar {
+    background-color: rgba(111, 81, 51, 0.5);
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbarli:hover {
+    background-color: rgba(111, 81, 51, 0.7)
+}
+
+
+nav {
+    font-family: 'Noto Serif', serif;
+}
+
+form {
+    display: grid;
+    justify-items: center;
+    grid-column: 1 / -1;
+    margin-bottom: 30px;
+    grid-template-columns: auto auto;
+}
+
+article {
+    display: grid;
+    justify-items: center;
+    background-color: rgba(111, 81, 51, 0.5);
+    margin: 7px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+
+}
+
 .pageLayout {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#movieLayout {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 #picture {
@@ -30,7 +72,7 @@ p {
 }
 
 .spanColumns {
-    grid-column: 1 / span 2;
+    grid-column: 1 / -1;
 }
 
 #tableSection {
@@ -41,18 +83,19 @@ h1, h2, h3, th, td {
     text-align: center;
 }
 
+h1, h2, h3 {
+    font-family: 'Noto Serif', serif;
+}
+
 th, td {
     border: 1px solid black;
+    padding: 5px;
 }
 
 ul, table {
     background-color: rgba(111, 81, 51, 0.5);
     padding: 20px;
     border-radius: 10px;
-}
-
-td, th {
-    padding: 5px;
 }
 
 li {
@@ -69,4 +112,18 @@ li {
 
 .red {
     color: rgb(218, 18, 26)
+}
+
+.pageConnector {
+    padding: 10px;
+    border-radius: 10px;
+    place-self: center;
+    background-color: rgba(111, 81, 51, 0.7);
+    text-decoration: none;
+
+}
+
+.pageConnector:hover {
+    background-color: rgba(111, 81, 51, 0.5);
+    text-decoration: none;
 }

@@ -123,7 +123,8 @@ Last Name, First Name: Render link
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, h1, li, and table selectors...
+- **Styled page with CSS**: Added rules for the body, nav, form, article, p, h1, h2, h3, th, td, ul, table, and li selectors
+- **Experimented with additional semantic tags**: Section, Article, header, images, links, tables, etc.
 
 ### Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used the Noto Seriff & Sans Font from Google Fonts**: I used Noto Seriff as the font for the headers & navbar. I used Noto Sans for all other text in my site.

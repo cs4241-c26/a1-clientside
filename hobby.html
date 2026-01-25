@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CS4241 Assignment 1: My Favorite Hobby</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<nav>
+    <ul id="navbar">
+        <li class="navbarli"><a href="index.html">Home</a></li>
+        <li class="navbarli"><a href="hobby.html">Favorite Hobby</a></li>
+        <li class="navbarli"><a href="https://www.wpi.edu/">WPI</a></li>
+        <li class="navbarli"><a href="https://en.wikipedia.org/wiki/Film">What are Movies?</a></li>
+    </ul>
+</nav>
+
+<body>
+<div id="movieLayout">
+    <article>
+        <h3>Secret Life of Walter Mitty</h3>
+        <a href="https://letterboxd.com/film/the-secret-life-of-walter-mitty-2013/" target="_blank"><img src="/Images/SecretLifeOfWalterMitty.jpg" alt="Secret Life of Walter Mitty" style="width:187px;height:280px;"></a>
+    </article>
+    <article>
+        <h3>Moneyball</h3>
+        <a href="https://letterboxd.com/film/moneyball/" target="_blank"><img src="/Images/Moneyball.jpg" alt="Moneyball" style="width:187px;height:280px;"></a>
+    </article>
+    <article>
+        <h3>Interstellar</h3>
+        <a href="https://letterboxd.com/film/interstellar/" target="_blank"><img src="/Images/Interstellar.jpg" alt="Interstellar" style="width:187px;height:280px;"></a>
+    </article>
+    <article>
+        <h3>The Shawshank Redemption</h3>
+        <a href="https://letterboxd.com/film/the-shawshank-redemption/" target="_blank"><img src="/Images/ShawshankRedemption.jpg" alt="Shawshank Redemption" style="width:187px;height:280px;"></a>
+    </article>
+    <article>
+        <h3>Jaws</h3>
+        <a href="https://letterboxd.com/film/jaws/" target="_blank"><img src="/Images/Jaws.jpg" alt="Jaws" style="width:187px;height:280px;align-self:center;"></a>
+    </article>
+
+    <p class="spanColumns">Check out the last five movies I've watched that I've given 5 stars too.</p>
+    <p class="spanColumns">You can also check out my Letterboxd account <a href="https://letterboxd.com/BAKharfen/" target="_blank">here</a></p>
+    <hr style="color:rgb(111, 81, 51);" class="spanColumns">
+    <h2 class="spanColumns">Fill out the form below:</h2>
+
+    <form>
+        <section>
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" name="name" placeholder="Your name.."><br>
+        </section>
+
+        <section>
+            <label for="favoriteMovies">List out some of your favorite movies: </label><br>
+            <textarea name="favoriteMovies" id="favoriteMovies" cols="30" rows="10"></textarea><br>
+        </section>
+
+
+        <section>
+            <p>Who do you watch movies with?</p>
+            <input type="checkbox" id="friends" name="friends" value="Friends">
+            <label for="friends"> Friends</label><br>
+            <input type="checkbox" id="solo" name="solo" value="Solo">
+            <label for="solo"> Solo</label><br>
+            <input type="checkbox" id="family" name="family" value="Family">
+            <label for="family"> Family</label><br>
+            <input type="checkbox" id="classmates" name="classmates" value="Classmates">
+            <label for="classmates"> Classmates</label><br>
+            <input type="checkbox" id="significantOther" name="significantOther" value="Significant Other">
+            <label for="significantOther"> Significant Other</label><br>
+        </section>
+
+        <br>
+
+        <section style="grid-column: 2;">
+            <p>Which movie will win best picture this year?</p>
+            <input type="radio" id="Bugonia" name="bestPictureWinner" value="Bugonia">
+            <label for="Bugonia">Bugonia</label><br>
+            <input type="radio" id="F1" name="bestPictureWinner" value="F1">
+            <label for="F1">F1</label><br>
+            <input type="radio" id="Frankenstein" name="bestPictureWinner" value="Frankenstein">
+            <label for="Frankenstein">Frankenstein</label><br>
+            <input type="radio" id="Hamnet" name="bestPictureWinner" value="Hamnet">
+            <label for="Hamnet">Hamnet</label><br>
+            <input type="radio" id="Marty_Supreme" name="bestPictureWinner" value="Marty Supreme">
+            <label for="Marty_Supreme">Marty Supreme</label><br>
+            <input type="radio" id="One_Battle_after_Another" name="bestPictureWinner" value="One Battle after Another">
+            <label for="One_Battle_after_Another">One Battle after Another</label><br>
+            <input type="radio" id="The_Secret_Agent" name="bestPictureWinner" value="The Secret Agent">
+            <label for="The_Secret_Agent">The Secret Agent</label><br>
+            <input type="radio" id="Sentimental_Value" name="bestPictureWinner" value="Sentimental Value">
+            <label for="Sentimental_Value">Sentimental Value</label><br>
+            <input type="radio" id="Sinners" name="bestPictureWinner" value="Sinners">
+            <label for="Sinners">Sinners</label><br>
+            <input type="radio" id="Train_Dreams" name="bestPictureWinner" value="Train Dreams">
+            <label for="Train_Dreams">Train Dreams</label><br>
+        </section>
+
+        <br>
+        <section style="grid-column:1;">
+            <p>Choose your streaming service of choice:</p>
+            <input list="streamingService" name="streamingService">
+            <datalist id="streamingService">
+                <option value="Netflix">
+                <option value="HBO">
+                <option value="Hulu">
+                <option value="Disney+">
+                <option value="Prime">
+                <option value="Paramount">
+                <option value="Tubi">
+                <option value="Youtube">
+                <option value="Peacock">
+                <option value="Apple TV">
+            </datalist>
+        </section>
+
+        <br>
+        <input type="submit" value="Submit" class="spanColumns">
+    </form>
+
+
+</div>
+</body>
+</html>
